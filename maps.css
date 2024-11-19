@@ -47,12 +47,27 @@
     padding: 2rem;
   }
   
+  
+
+  @media only screen and (max-width:600px){
   section {
-    margin-bottom: 2rem;
-    padding: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
     background: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 90vh;
+  }
+}
+  @media only screen and (min-width:1000px){
+    section {
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      height: 90vh;
+    }
   }
   
   section h2 {
