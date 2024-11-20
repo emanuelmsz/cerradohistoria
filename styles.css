@@ -1,112 +1,159 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #F2EED7;
-    color: #333;
-  }
-  
-  header {
-    background-color: #798645;
-    color: white;
-    padding: 1rem 0;
-    text-align: center;
-  }
-  
-  header h1 {
-    margin-bottom: 0.5rem;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-  }
-  
-  nav ul li {
-    padding: 10px;
-    background-color: #626F47;
-    border-radius: 50px;
-  }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  nav ul li a:hover {
-    text-decoration: underline;
-  }
-  
-  main {
-    padding: 2rem;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  section {
-    margin-bottom: 2rem;
-    padding: 1rem;
-    background: #FEFAE0;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #F2EED7;
+  color: #333;
+}
 
-  .botao{
-    width: 100px;
-    height: 100px;
-    position: fixed;
-    z-index: 1000;
-    right: 2rem;
-    bottom: 2rem;
-    background-color: #798645;
-    border-radius: 20px;
-  }
+header {
+  background-color: #798645;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
 
-  .botao a{
-    width:100%;
-    height:100%;
-  }
-  
-  section h2 {
-    color: #4caf50;
-    margin-bottom: 0.5rem;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 1rem 0;
-    background-color: #333;
-    color: white;
-  }
+header h1 {
+  margin-bottom: 0.5rem;
+}
 
-  h1, a{
-    font-family: "Work Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 50px;
-    font-style: normal;
-  }
-  
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
 
-  table {
-    width:
-    border-collapse: collapse; 
-  }
+nav ul li {
+  padding: 10px;
+  background-color: #626F47;
+  border-radius: 50px;
+}
 
-  th, td {
-    padding: 
-    border: 1px solid #ccc; 
-    text-align: left; 
-  }
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-  button a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+}
+
+
+section {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #FEFAE0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.botao {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  z-index: 1000;
+  right: 2rem;
+  bottom: 2rem;
+  background-color: #798645;
+  border-radius: 20px;
+}
+
+.botao a {
+  width: 100%;
+  height: 100%;
+}
+
+section h2 {
+  color: #4caf50;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #333;
+  color: white;
+}
+
+h1,
+a {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 50px;
+  font-style: normal;
+}
+
+
+table {
+  width:
+    border-collapse: collapse;
+}
+
+th,
+td {
+  padding:
+    border: 1px solid #ccc;
+  text-align: left;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#ocupacao img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  /* Certifique-se de que não está forçando um tamanho que quebre a centralização */
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #e5ff7b;
+  transform: scale(1.1);
+}
+
+.botao {
+  padding: 10px 20px;
+  background-color: #798645;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #e5ff7b;
+  transform: scale(1.1);
+}
+
+iframe {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+iframe:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
